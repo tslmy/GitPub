@@ -3,7 +3,7 @@
     var pathArray = window.location.pathname.split('/');
     if (domainArray.length == 3 && domainArray[1].toLowerCase() == 'github' && domainArray[2].toLowerCase() == 'io') {
         sUser = domainArray[0];
-        sRepo = pathArray[0];
+        sRepo = pathArray[1];
     } else {
         sUser = 'tslmy';
         sRepo = 'GitPub';

@@ -1,0 +1,49 @@
+body {
+  background: radial-gradient(ellipse at center, #fff 0%, #eee 100%);
+  padding: 0;
+  margin: 0;
+}
+
+#blogName {
+  height: 200px;
+  width: 100%;
+  color: #eee;
+  background: url('http://api.thumbr.it/whitenoise-1x200.png?background=333333ff&noise=666666&density=20&opacity=20');
+  line-height: 200px;
+  text-align: center;
+  margin:0;
+}
+
+#list {
+  padding: 0;
+}
+
+.entry {
+  list-style: none;
+}
+
+.entry:hover {
+  background: #ddd;
+}
+
+.entry > a {
+    padding: 0 20%;
+  display: block;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: #111;
+  font-family: Times;
+  font-size: 18px;
+  line-height: 36px;
+}
+#footer {
+  margin-top: 70px;
+  border-top: #eee 1px solid;
+  height: 100px;
+  color: #ccc;
+  line-height: 100px;
+  text-align: center;
+  text-shadow: 0 1px 0 #fff; 
+  display: box;
+  width: 100%;
+}

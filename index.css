@@ -18,24 +18,41 @@ body {
   padding: 0;
 }
 
+
 .entry {
   list-style: none;
 }
 
-.entry:hover {
+.file:hover {
   background: #ddd;
 }
 
-.entry > a {
-    padding: 0 20%;
-  display: block;
-  box-sizing: border-box;
+.file > a , .folder{
   text-decoration: none;
   color: #111;
   font-family: Times;
   font-size: 18px;
   line-height: 36px;
+  padding: 0 20%;
+  box-sizing: border-box;
+  display: block;
 }
+
+
+
+.folder {
+    color: #fff;
+    background: #e44;
+    width:100%;
+    display: inline;
+    margin: 0 20%;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 13px;
+    font-family: Arial;
+}
+
+
 #footer {
   margin-top: 70px;
   border-top: #eee 1px solid;

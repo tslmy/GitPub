@@ -42,7 +42,7 @@
             $SubList = $('<ul></ul>');
             addFilesToList(p_oFile.path, $SubList, p_sRootUrl, p_sUser, p_sRepo, p_sToken);
             p_$List.append(
-              '<li class="entry folder">' + ' <a href="' + p_sRootUrl + p_sPath + '/' + p_oFile.name + '/">' + p_oFile.name + '</a></li>'
+              '<li class="entry folder">' + p_oFile.name + '</li>'
             ).append($SubList);
           } else { // File
             sFileType = 'file';

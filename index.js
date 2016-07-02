@@ -9,6 +9,7 @@
         sRepo = 'GitPub';
     };
     var sRootUrl = 'http://github.com/' + sUser + '/' + sRepo + '/';
+    var sBaseUrl = 'https://raw.githubusercontent.com/' + sUser + '/' + sRepo + '/master/';
     $('#blogName').text(sRepo);
     $('title').text(sRepo+ ' - Index');
     var $List;
@@ -56,8 +57,9 @@
                     } else if (p_oFile.type === 'file') { // File
                         sFileType = 'file';
                         sExtension = p_oFile.name.substr(-3);
-                        sFileName = p_oFile.name.substr(0, p_oFile.name.length - 3)
-                        if (sExtension == '.md' && p_oFile.name.substr(0, 1) != '.') p_$List.append('<li class="entry file">' + ' <a href="read.html?' + p_oFile.download_url + '">' + sFileName + '</a></li>');
+                        sFileName = p_oFile.name.substr(0, p_oFile.name.length - 3);
+                        sFileRelativePath = p_oFile.download_url.substr(sBaseUrl.length,p_oFile.download_url.length);
+                        if (sExtension == '.md' && p_oFile.name.substr(0, 1) != '.') p_$List.append('<li class="entry file">' + ' <a href="read.html?' + sFileRelativePath + '">' + sFileName + '</a></li>');
                     }
                 });
             },

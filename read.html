@@ -5,15 +5,14 @@
     <title>Read</title>
 </head>
 <body>
-    <xmp>Something went wrong while loading article content.</xmp>
+    <xmp theme="Yeti" style="display:none;">Something went wrong while loading article content.</xmp>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js">
     </script> 
     <script>
         $(document).ready( function() { 
-         $("xmp").load(window.location.search.replace("?", ""));
-            });
+         $("xmp").load(window.location.search.replace("?", ""),function() {
+            $.getScript('http://cdn.ztx.io/strapdown/strapdown.min.js');
+        })});
     </script> 
-    <script src="https://cdn.ztx.io/strapdown/strapdown.min.js">
-    </script>
 </body>
 </html>

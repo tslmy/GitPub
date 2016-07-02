@@ -10,8 +10,8 @@ Something went wrong while loading article content.
 </xmp>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script>
-        $(document).ready( function() {
             var pathArray = window.location.pathname.split('?');
+        $(document).ready( function() {
             if (pathArray.length>0) {
                 $("xmp").load(pathArray[1]);
             };

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Read</title>
+    
+</head>
+<body>
+	<h1></h1>
+	<h2></h2>
+	<article></article>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <script src="https://rawgit.com/lodash/lodash/4.13.1/dist/lodash.core.js"></script>
+  <script src="https://rawgit.com/k33g/gh3/master/gh3.min.js"></script>
+  <script type="javascript">
+  $(function (){
+   var k33g = new Gh3.User("k33g")
+      ,	repoTitle = $("h1")
+      ,	branchTitle = $("h2")
+      ,	rawContent = $("article");
+
+    var k33gBlog = new Gh3.Repository("k33g.github.com", k33g);
+
+    k33gBlog.fetch(function (err, res) {
+      if(err) { throw "outch ..." }
+
+      repoTitle.html(k33gBlog.full_name);
+
+      k33gBlog.fetchBranches(function (err, res) {
+        if(err) { throw "outch ..." }
+
+        var master = k33gBlog.getBranchByName("master");
+        branchTitle.html(master.name + " (" + master.sha + ") :");
+
+        master.fetchContents(function (err, res) {
+          if(err) { throw "outch ..." }
+
+          var myfile = master.getFileByName("index.html");
+
+          console.log("index.html", myfile);
+
+          myfile.fetchContent(function (err, res) {
+            if(err) { throw "outch ..." }
+
+            rawContent.text(myfile.getRawContent());
+          });
+
+          myfile.fetchCommits(function (err, res) {
+            if(err) { throw "outch ..." }
+
+            console.log(myfile.getCommits());
+
+            myfile.eachCommit(function (commit) {
+              console.log(commit.author.login, commit.message, commit.date);
+            });
+          });
+
+        });
+
+      })
+    });
+  });
+  </script>
+</body>
+</html>

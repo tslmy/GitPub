@@ -1,3 +1,4 @@
+
 GitPub
 =======
 Transform a GitHub git into a blog/doc site. No static-site generator required.
@@ -7,6 +8,7 @@ To **your readers**, it's a view-only GitHub frontend designed only for reading.
 To **yourself**, it's a verstile writing platform that allows opting out at anytime.
 
 [TOC]
+
 
 Feature
 -------
@@ -81,6 +83,7 @@ Give [TinyPress](https://tinypress.co/) a try. It runs [Jekyll](http://jekyllrb.
 
 I have an old project [t.t.t](https://github.com/tslmy/t.t.t/) for you. It's based on PHP, also works by indexing a folder of pure `md` files and doesn't require too much JavaScript support on the client side.
 
+
 Install
 -------
 Clone this repo, or copy all files under `gh-pages` branch to that under your repo. 
@@ -89,6 +92,14 @@ Clone this repo, or copy all files under `gh-pages` branch to that under your re
 Manage Content
 --------------
 Save/edit your posts as `.md` files under `master`branch.
+
+## Future?
+
+Dynamically generating content via Javascript is super unfriendly to SEO. I know that.
+
+Next, I plan to make GitPub work on Heroku:
+
+User will have to authorize GitPub with permission to GitHub. GitPub will set up a webhook for itself listening to `push` events. Whenever user pushes to the `master` branch of his/her repo, the webhook is triggered and GitPub is activated. GitPub will then fetch all files modified by this push, render them with a `Jekyll` backend, push the generated static site to the `gh-pages` branch of that repo. 
 
 
 Licence

@@ -1,61 +1,97 @@
-A Hitchhiker’s Guide to the Smartband
+#A Hitchhiker’s Guide to the Smartband
+
 From ENIAC to iPhone, computational devices have condensed from a volleyball-court-sized giant (Hartree, 1975) to something that fits in a pocket. As they shrinks in both size and price, designers are putting more personalization into consideration. Thanks to the fast-forwarding microchip development, bracelets, or “smartbands”, outstanding for their vast variability in variety, are coming into the public sight. (Clark, 2013)
+
 Smartband is easily distinguishable among the category. Compared to a non-smart activity tracker, it offers more connectivity and customizability centered at human need. Cloud services, such as Microsoft Health, provide analytical insights of data retrieved from one's wearable sensors, and they rely on frequent Internet uploads. (Mottl, 2014) This is usually achieved by pairing the band with a smartphone, on which a dedicated app would process the data collected. (Rajan, 2014) Besides Bluetooth, current models often utilize NFC chips to accomplish this communication. (CBR, 2014) In addition to being an intermediate, the controller app often offers as portal to install extra functions onto the wristband. These features all made it deserve the name of a smart device, and serve as criteria that identify smartbands from ordinary electronic bracelets.
+
 Although vainglorious marketing is blurring the boundary of these terms, a smartwatch is fundamentally different from a smartband. Designed to be a "glance-and-go" display, a smartwatch makes grasping snatches of information less interruptive. (Dallas, 2013) It offers a more seamless experience with the event ongoing, so that its user could be better immersed into the workflow. (Weinman, 2012) In contrast, with a tiny or even absent screen, a smartband is more focused at gathering information, rather than providing them. Secondly, limited by its compact sign, the band can not behave "smart" without a paired smartphone, whereas a few smartwatches is able to run certain standalone apps. (Moscaritolo, 2014) Nevertheless, with third-party developers diving into this arena, these two concepts of smart device may just merge together. (Olenick, 2014)
+
 Wearable devices is the ineluctable product of the ubiquitous computing family. (Weiser, 1993) The term "ubicomp", or sometimes "ambient intelligence", suggests that computational devices will populate and blend with everyday surroundings. People are able to enjoy their convenient services without noticing their existence. They are no longer tools, but services. As they grow and mingle, each device is assigned with a specific duty, rather than prepared for universal purposes. This functional rollback reduces the hardware cost, which in turn accelerates its population growth. (Bravo, 2011) As Mark Weiser pointed out back in the 20th century, "the most profound technologies ... weave themselves into the fabric of everyday life until they are indistinguishable from it." (Weiser, 1991) Nowadays, it seems that the smart wearable devices are the first bunch of threads.
+
 Google greatly contributed to the booming of smart devices. Back in 2007, the viral popularization of iPhone incited Internet companies with the vista of cellphone market. (Shaw, 2008) Allied with hardware vendors, Google presented Android free of charge, in contrast to Apple's walled-garden policy. (Merritt, 2008) The open-source release of Android remarkably slashed the development cost, and it tempted manufacturers to follow suit in the case of iPad. Unfortunately, not foreseeing the trend of scaling up, Android 2.0 looked ungainly on tablet screens. The version 3.0, codenamed Honeycomb, was quickly released to satisfy this need. (Kolakowski, 2011) Specially designed for tablets but no phones, this update worsened the version fragmentation of Android users. Phone users were most angry, since it made no sense that larger screens should have a larger version number. To put an end to this catastrophe, Google released Android 4.0, which could automatically adapt to a variety of screen sizes, ranging from 3.5-inch cheap smartphones to 10-inch luxurious Galaxy Tabs. (Boulton, 2012) This move inspired engineers that, just like they can adapt larger displays, they can minify the interface as well. As a result, Android Wear was then released on developer conferences, open and free as usual. (Mlot, 2014) This derivation of the Android OS provided an open software platform for wearable devices.               
-                                          ——————Li Mingyang
+
+###(Li Mingyang)
+
 Smartbands can be useful even though they may only be offered a limited selection of the features which already available on smartphones, but they still have their own advantages. 
+
 With the ongoing concern about health and high health-care costs, people are looking for smart and useful tools to help them make better health choices. BASIS 
+
 Science, Inc. revealed the design and features of its BasisTM B1 band. The Basis B1 band can measure heart rate continuously, along with activity and other physiological metrics. The device including four sensors: two heat sensors that track skin and ambient temperature changes; a 3-axis accelerometer that records movement and activity, and galvanic skin response sensors that help track the intensity of activity by measuring sweat levels. These sensors can monitor heart rate, calculate calories burned, amount of physical activity and sleep patterns. (Basis Band, 2011) The Basis B1 band brings all the sensors together in a wrist-worn device that is comfortable and convenient to wear day and night, and they can provide a detailed picture of users’ health and create specific goal-based workouts. 
+
 Smartbands’ users will have the choice to combine their fitness data with calendar and email information from their computer as well as location-based information and more by using a platform created by Microsoft.( Microsoft debuts mHealth platform, smartband, 2014) 
+
 As wearable devices are popping everywhere, some users started to think that they want their wearable gadgets look cool or their fitness trackers to be more fashionable, and now wearable devices are trying to break into the fashion world. Some companies have smartly started to looking for people who know about fashion, and teaming up with engineers, trying to create something new, like smartbands can change colors and styles to suit users’ dressing.(Wearable gadgets search for mainstream appeal and style, 2014)
-                                              —————Zhao Jing
+
+###(Zhao Jing)
+
 Everything in favor should have its own importance and characteristic, not except the wearable devices. Most of this kind of devices are not designed for specialists but for hobbyists. There’s no doubt that the intelligent bracelet will show us its great development prospects in the future. Smartwatch is one simple example of the application of intelligent bracelet. It can send timely and personal information from smartphones. The only thing users need to do is wearing Smartwatchs on their wrists. “The device has a vibration and screen alert that notifies users of key events such as incoming calls. It also allows users to read texts and e-mails as well as receive Facebook and Twitter updates.” (Internet Business) This kind of SmartWatch won’t be less fashionable than any other electronic devices. It is very possible that the SmartWatch will guide another tideway besides the iphone and ipad. The young and Geeks will show great interest to buy one and enjoy the convenience it bring to their life. Actually, another one named ZenWatch is also on its way. “ASUS, a global consumer notebook vendor and maker of computer motherboards, has introduced ZenWatch, its first wearable device powered by Anolroid Wear and produced in partnership with Google.” (Emma Okonji) Then we can see the time of intelligent bracelets is coming. “ZenWatch is an exquisitely-crafted watch that seamlessly pairs with an Android smart phone to provide relevant and useful information when it is needed most, and serve as a personal wellness manager.” (Emma Okonji) It shows the business-like application prospect of wearable device. Intelligent bracelets can also be developed into a kind of armarium for people who care about their health. 	Health-tracking is the most widely application of this kind of wearable devices. They can help users do Heart-rate tracking, sleep cycle tracking or even blood pressure tracking. “24-h blood pressure (BP) has significant prognostic value for cardiovascular risk screening, but the present BP devices are mainly cuff-based, which are unsuitable for long-term BP measurement, especially during nighttime.” (Ya-Li Zheng) Fortunately wearable devices can solve this problem perfectly. “We developed an armband wearable pulse transit time (PTT) system for 24-h cuff-less BP measurement and evaluated it in an unattended out –of –laboratory setting.” (Ya-Li Zheng) Wearable devices designed for medical treatment will have huge market demand.    
-                                              —————Zhao Feng
+
 With the popularity of the smartphones and people’s expectation for a smarter life, and as society is getting into an information age which is laying the foundation of an intelligent age, people’s lives are becoming more efficient and convenient by the various devices. The major companies are keen to tap the new opportunities for the growing demand of this, so they input a lot cost for researching and developing the smart devices. Today there are smart devices of headset, wristband or some others. For wrist band, it could be divided into smart band and smart watch. Like Samsung, which raced ahead of Apple Inc. last year to become the world's biggest maker of smartphones, is attempting to shake off long-running criticism that it has been a follower rather than an innovator in the competitive market for high-end devices. To satisfy some mobile applications, Samsung launched a new product—Samsung Galaxy Gear. The Galaxy Gear, according to Samsung, "frees users from the need to constantly check their smart devices while maintaining connections...allowing users to choose how, why, when, and where they are connected." This is a kind of smart watch. Galaxy Gear has a small screen which lets the users keep connected to all the Samsung devices and deal with the emails, the massages, even the phone calls. It also has the functions of memorandum, alarm clock, photo viewer, and other fundamental junctions for a mobile phone. (Cheng, J., & Min-Jeong Lee., 2013). ‘It features an 800 MHz processor, a 1.63" Super AMOLED (320 X 320) display, 512MB of RAM, and 4GB Internal memory. It has an accelerometer and a gyroscope, Bluetooth v. 4.0, and a standard Ll-lon 315 mAh battery. Samsung is making a best smart device for users combine to the mobile phone.’(TOOLS of the TRADE., 2013). 
+
 Not only Samsung, Chinese companies are also making effort on the smart band. Chinese electronics manufacturer Huawei has unveiled a hybrid smart band, the TalkBand B1. Different from the big screen which makes it looks much like a watch on Galaxy Gear, the TalkBand B1 features a 1.4-inch flexible OLED display, the longandnarrow screen makes it close to a band. The TalkBand B1 Is not depend on the mobile phone too much to fit the APPs like Galaxy Gear, it has more independent functions. The TalkBand B1 comes with NFC support and is claimed to be capable of recording the number of steps walked by a user, distance travelled, and calories burnt along with user's sleeping pattern in order to set alarms accordingly. People could use it to check the amount of exercise and the physical condition. (Huawei unveils first hybrid smart band., 2014)
+
 Other business magnates in the electronic field like Microsoft or Razer are following the trend, too. In the future, people’s choice of smart band would be variable. With the time past, the smart band would develop into a new period. As the technology of the camera on the mobile phones becoming mature, it could be transplanted into the smart band, lift the restriction of time and tools for selfies. Maybe someday, people could even realize that everyone has an own specific smart band. It includes the identification number and chip of bank card. That is a good idea, but in view of the level of science and technology now, there is still a long way to go.
-                                           —————Hao Tianduo
+
+###(Hao Tianduo)
+
 Smartbands save people a lot of time from the distracting task of using a phone. They can be health trackers, they can be fashion ornaments, and they can be everything. Smartbands are essential for human’s future life. A research firm ABI estimates the wearables market will hit $6 billion by 2018. (Wearable gadgets search for mainstream appeal and style, 2014) Someday, everyone will have their own unique smartband, and the advanced technology promises that.  
-                                             —————Zhao Jing
+
+###(Zhao Jing)
 
 
 
 References
+---------
 Hartree, D. R. (1946, April 20). The ENIAC, an electronic calculating machine. 	(1975). Nature, 257(5527), 546. Retrieved December 22, 2014, from 		http://www.nature.com.proxy.lib.uwaterloo.ca/nature/journal/v257/n5527/pdf/257	546a0.pdf
+
 Kim, E. (2012, April 1). HTC EVO 4G LTE vs. Apple iPhone 4S: Specs Compared. 	Retrieved December 22, 2014, from 	http://web.b.ebscohost.com.proxy.lib.uwaterloo.ca/ehost/detail/detail?vid=1&sid	=f9b820a6-0175-40b4-bc0c-5ada6c79c899@sessionmgr112&hid=110&bdata=Jn	NpdGU9ZWhvc3QtbGl2ZSZzY29wZT1zaXRl#db=bth&AN=82053878
+
 Clark, D. (2013, September 10). Intel Unveils Tiny Quark Chips for Wearable 		Devices. Retrieved December 22, 2014, from 	http://online.wsj.com/news/articles/SB1000142412788732359500457906711170	9753126
+
 CBR. Huawei unveils first hybrid smart band. (2014, February 24). Retrieved 		December 22, 2014, from 	http://www.cbronline.com/news/tech/hardware/desktops/huawei-unveils-first-hyb	rid-smart-band-240214-4182668
+
 Mottl, J. (2014, October 30). Microsoft debuts mHealth platform, smartband. 	Retrieved December 22, 2014, from 	http://www.fiercemobilehealthcare.com/story/microsoft-debuts-mhealth-platform	-smartband/2014-10-30
+
 Weiser, M. (1993). Ubiquitous computing. (the focus on unobtrusive technology in 	the workplace) (hot topics) (column). Computer, 26(10), 71. Retrieved December 	22, 2014, from http://www.ubiq.com/hypertext/weiser/UbiCompHotTopics.html
+
 Rajan, N. (2014, July 11). Sony SmartBand SWR10 review: The Lifelogger: The 	Lifelog makes the Sony SmartBand the best and easiest wearable band in the 	market. Retrieved December 22, 2014, from 	http://search.proquest.com.proxy.lib.uwaterloo.ca/docview/1544424500
+
 Olenick, D. (2014, January 24). Razer Debuts Nabu Smart Band Watch/Fitness 	Device. Retrieved December 22, 2014, from 	http://search.proquest.com.proxy.lib.uwaterloo.ca/docview/1478191248
+
 Moscaritolo, A. (2014, February 3). Pebble Smartwatch App Store Launches Monday 	on iOS. Retrieved December 22, 2014, from 	http://www.pcmag.com/article2/0,2817,2430254,00.asp
+
 Weiser, M. (1991). The computer for the 21st century. Scientific American, 265(3), 	94-95. Retrieved December 28, 2014, from 	http://www.nature.com/scientificamerican/journal/v265/n3/full/scientificamerican	0991-94.html
+
 Weinman, J. (2012, May 14). Is the smartwatch going mainstream with Pebble?. 		Maclean's, 125(18), 46(1). Retrieved December 28, 2014, from 		http://www.macleans.ca/economy/business/your-wrist-is-ringing/
+
 Dallas, T. (2013, September 25). It's time to rethink what a watch can do with the 	pebble smartwatch available at AT&T. PR Newswire. Retrieved December 28, 	2014, from 	http://www.att.com/gen/press-room?pid=24833&cdvn=news&newsarticleid=370	29
+
 Bravo, J. (2011, April). Theme issue: "Ubiquitous computing and ambient 	intelligence". Personal and ubiquitous computing, 15(4), 315-316. Retrieved 		December 28, 2014, from 	http://link.springer.com/article/10.1007/s00779-010-0358-9?institute=OCUL.wat	erloo
+
 Shaw, K. (2008). Everyone's got iPhone and android envy. Network World, 25(7), 28. 	Retrieved from 	http://search.proquest.com.proxy.lib.uwaterloo.ca/docview/215992662?accountid	=14906
+
 Merritt, R. (2008). Android available as open source. Electronic Engineering Times, 	(1547), 22-22,24. Retrieved from 	http://search.proquest.com.proxy.lib.uwaterloo.ca/docview/208077142?accountid	=14906
+
 Kolakowski, N. (2011, January 31). Apple iPad Faces Risks from Android 3.0 	Honeycomb. Retrieved December 29, 2014, from 	http://www.eweek.com/c/a/Mobile-and-Wireless/Apple-iPad-Faces-Risks-from-A	ndroid-30-Honeycomb-512062/
+
 Boulton, C. (2012, January 11). Google's Eric Schmidt Denies Android Fragmentation 	at CES. Retrieved December 29, 2014, from 	http://www.eweek.com/c/a/Linux-and-Open-Source/Googles-Eric-Schmidt-Denie	s-Android-Fragmentation-at-CES-242337/
+
 Mlot, S. (2014, March 18). Google Unveils Android Wear Smartwatch OS. Retrieved 	December 29, 2014, from http://www.pcmag.com/article2/0,2817,2455100,00.asp
 
 Mottl, J. (2014). Microsoft debuts mHealth platform, smartband. Newton: Questex 	Media Group LLC. Retrieved from 	http://search.proquest.com.proxy.lib.uwaterloo.ca/docview/1622015447?accounti	d=14906
+
 Basis science, inc.; BASIS reveals details of heart rate and health tracker; plans to 	showcase basis band at health 2.0. (2011). Fitness & Wellness Business Week, , 	46. Retrieved from 	http://search.proquest.com.proxy.lib.uwaterloo.ca/docview/896291019?accountid	=1490
+
 Kelly H.(2014). Wearable gadgets search for mainstream appeal and style. CNNWR 	Cable News Network. 
 
-Emma Okonji, ASUS Announces First Wearable Device, ZenWatch ALI Africa 	AFNWS © 2014 AllAfrica
-Internet Business
-M2 Communications, April 12, 2012
+Emma Okonji, ASUS Announces First Wearable Device, ZenWatch ALI Africa 	AFNWS © 2014 AllAfrica Internet Business M2 Communications, April 12, 2012
+
 Ya-Li Zheng Dept. of Electron. Eng., Chinese Univ. of Hong Kong, China Yan, B.P.; 	Yuan-Ting Zhang ; Poon, C.C.Y. An Armband Wearable Deice for Overnight and 	Cuff-less Blood Pressure Measurement
 
-Cheng, J., & Min-Jeong Lee. (2013, Sep 05). Is it time for smartwatches? --- 	Samsung’s galaxy gear opens new front in tech battle over 'wearable' devices. 	Wall Street Journal Retrieved from
-http://search.proquest.com.proxy.lib.uwaterloo.ca/docview/1430257149?accounti	d=14906)
-TOOLS of the TRADE. (2013). Strategic Finance, 95(4), 58-59. Retrieved from
-http://search.proquest.com.proxy.lib.uwaterloo.ca/docview/1462032458?accounti	d=14906)
-Huawei unveils first hybrid smart band. (2014). Progressive Digital Media 	Technology News. Retrieved from
-http://search.proquest.com.proxy.lib.uwaterloo.ca/docview/1545684243?accounti	d=14906)
+Cheng, J., & Min-Jeong Lee. (2013, Sep 05). Is it time for smartwatches? --- 	Samsung’s galaxy gear opens new front in tech battle over 'wearable' devices. 	Wall Street Journal Retrieved from http://search.proquest.com.proxy.lib.uwaterloo.ca/docview/1430257149?accounti	d=14906)
+
+TOOLS of the TRADE. (2013). Strategic Finance, 95(4), 58-59. Retrieved from http://search.proquest.com.proxy.lib.uwaterloo.ca/docview/1462032458?accounti	d=14906)
+
+Huawei unveils first hybrid smart band. (2014). Progressive Digital Media 	Technology News. Retrieved from http://search.proquest.com.proxy.lib.uwaterloo.ca/docview/1545684243?accountid=14906)
 
 

@@ -16,7 +16,7 @@ var pathArray = window.location.pathname.split('/');
 		})});
 	// Disqus
 	var d = document, s = d.createElement('script');
-	s.src = '//gitpub.disqus.com/embed.js';
+	s.src = '//gitpub.disqus.com/embed.js'; //USERS OF GITPUB: CHANGE THIS "GITPUB"!
 	s.setAttribute('data-timestamp', +new Date());
 	(d.head || d.body).appendChild(s);
 })();

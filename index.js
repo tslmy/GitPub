@@ -43,6 +43,7 @@
             dataType: "json",
             url: sUrl,
             success: function(p_oData) {
+                console.log(p_oData);//for debug
                 $.each(p_oData, function(p_i, p_oFile) {
                     var $SubList, sFileType,
                         sExtension;

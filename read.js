@@ -19,4 +19,6 @@ var pathArray = window.location.pathname.split('/');
 	s.src = '//gitpub.disqus.com/embed.js'; //USERS OF GITPUB: CHANGE THIS "GITPUB"!
 	s.setAttribute('data-timestamp', +new Date());
 	(d.head || d.body).appendChild(s);
+	// bigfoot, fore readable footnotes
+	$.bigfoot();
 })();

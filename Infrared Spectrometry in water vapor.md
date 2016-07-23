@@ -65,3 +65,4 @@ Above I have shown that capnography is helpful in monitoring ventilation and can
 [^8]: http://vergil.chemistry.gatech.edu/notes/ir-spectrosc.pdf\
 
 [^9]: http://www.capnography.com/new/physics/factors-affecting-ir- spectrography?tmpl=component&print=1&page=
+

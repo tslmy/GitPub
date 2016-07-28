@@ -71,7 +71,7 @@ var pathArray = window.location.pathname.split('/');
 	var sImagePath = sTitle + ".jpg";
 	var sImageUrl = sBaseUrl + sImagePath;
 	$("header").css("background-image", "url("+sImageUrl+")");
-	var sAvatarUrl = "https://avatars.githubusercontent.com/" + sUser;
+	var sAvatarUrl = "https://rawgit.com/" + sUser;
 	$("header > img").prop("src", sAvatarUrl);
 	$("header > a").text(sUser);
 	$("header > a").prop("href", "https://github.com/"+sUser);

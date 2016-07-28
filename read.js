@@ -12,7 +12,8 @@ var pathArray = window.location.pathname.split('/');
 		var sFilePath = window.location.search.replace("?", "");
 		$(document).ready( function() { 
 		 $('title').text(decodeURI(sFilePath.substr(0,sFilePath.length-3)));
-		 $("textarea").load(sBaseUrl + sFilePath, function() { $('body').append('<script src="strapdown.js"></script>');
+		 $("textarea").load(sBaseUrl + sFilePath, function() {
+		 	//$('body').append('<script src="strapdown.js"></script>');
 		})});
 	// Disqus
 	var d = document, s = d.createElement('script');

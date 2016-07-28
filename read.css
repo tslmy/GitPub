@@ -54,6 +54,7 @@ header {
   line-height: 1.2;
   padding: 10vw 2em;
   text-align: center;
+  display: none;
 }
 
 header img {
@@ -87,4 +88,8 @@ header a {
 header a:hover {
   background:  #e81c4f;
   color: white;
+}
+
+article {
+  display: none;
 }

@@ -68,11 +68,13 @@ var pathArray = window.location.pathname.split('/');
 			if (err) throw err;
 			$('article').html(content);
 		});
-	});
+	}).css("display", "block");
 	//load header
 	var sImagePath = sFileName + ".jpg";
 	var sImageUrl = sBaseUrl + sImagePath;
-	$("header").css("background-image", "url("+sImageUrl+")");
+	$("header").css({
+		"background-image": "url("+sImageUrl+")",
+		"display":"block"});
 	var sAvatarUrl = "https://avatars.githubusercontent.com/" + sUser;
 	$("header > img").prop("src", sAvatarUrl);
 	$("header > a").text(sUser);

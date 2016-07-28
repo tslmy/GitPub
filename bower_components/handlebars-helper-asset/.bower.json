@@ -1,0 +1,14 @@
+{
+  "name": "handlebars-helper-asset",
+  "homepage": "https://github.com/helpers/handlebars-helper-asset",
+  "_release": "0e990153c4",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "0e990153c4cc96b65c3db5bb1aff4cba6f944905"
+  },
+  "_source": "https://github.com/helpers/handlebars-helper-asset.git",
+  "_target": "*",
+  "_originalSource": "handlebars-helper-asset",
+  "_direct": true
+}

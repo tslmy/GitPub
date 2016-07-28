@@ -1,4 +1,4 @@
-#Nuclear Power is the Future
+# Nuclear Power is the Future
 
 After a 50-year journey of evolving, nuclear energy is proven to be the most potential source of energy for tomorrow. It not only displays a ridiculously high power yield in practice, but also does almost no harm to the environment if dealt with properly. In fact, most nuclear power plants can serve as radioactive material factories by themselves. A more efficient machine would be the perpetual motion machine, or a light bulb from Zeus.
 
@@ -44,7 +44,5 @@ Of course, this unavoidable destiny is an opportunity, not a safety guarantee. I
 
 ##References
 
-Holton, W. (2005). Power Surge: Renewed Interest in Nuclear Energy. Environmental Health Perspectives, 113(11), A742-A749. Retrieved August 21, 2014, from JSTOR.
-
-Smith, B., & Makhijani, A. (2006). Nuclear Is Not the Way. The Wilson Quarterly, 30(4), 64-68. Retrieved August 21, 2014, from JSTOR.
-
+- Holton, W. (2005). Power Surge: Renewed Interest in Nuclear Energy. Environmental Health Perspectives, 113(11), A742-A749. Retrieved August 21, 2014, from JSTOR.
+- Smith, B., & Makhijani, A. (2006). Nuclear Is Not the Way. The Wilson Quarterly, 30(4), 64-68. Retrieved August 21, 2014, from JSTOR.

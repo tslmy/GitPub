@@ -75,7 +75,7 @@ var pathArray = window.location.pathname.split('/');
 	var sAvatarUrl = "https://avatars.githubusercontent.com/" + sUser;
 	$("header > img").prop("src", sAvatarUrl);
 	$("header > a").text(sUser);
-	$("header > a").prop("href", window.location.href.substr(0, window.location.href.lastIndexOf("/")));
+	$("header > a").prop("href", '//'+sUser+'.github.io/'+sRepo+'/');
 	getImageBrightness(sImageUrl, function(brightness) {
 		var color = 255 - brightness;
 		$('header > a, header > h1').css('color','rgb('+color+', '+color+', '+color+')');

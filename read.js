@@ -8,11 +8,25 @@ var pathArray = window.location.pathname.split('/');
 		sUser = 'tslmy';
 		sRepo = 'GitPub';
 	};
+	marked.setOptions({
+	  renderer: new marked.Renderer(),
+	  gfm: true,
+	  tables: true,
+	  breaks: true,
+	  pedantic: false,
+	  sanitize: false,
+	  smartLists: true,
+	  smartypants: true
+	});
 	var sBaseUrl = 'https://raw.githubusercontent.com/' + sUser + '/' + sRepo + '/master/';
 		var sFilePath = window.location.search.replace("?", "");
 		$(document).ready( function() { 
 		 $('title').text(decodeURI(sFilePath.substr(0,sFilePath.length-3)));
-		 $("textarea").load(sBaseUrl + sFilePath, function() {
+		 $('article').load(sBaseUrl + sFilePath, function(content) {
+		 	marked(content, function (err, content) {
+			  if (err) throw err;
+			  $('article').html(content);
+			});
 		 	//$('body').append('<script src="strapdown.js"></script>');
 		})});
 	// Disqus

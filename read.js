@@ -59,7 +59,8 @@ var pathArray = window.location.pathname.split('/');
 	});
 	var sBaseUrl = 'https://rawgit.com/' + sUser + '/' + sRepo + '/master/';
 	var sFilePath = window.location.search.replace("?", "");
-	var sTitle = sFilePath.substr(0, sFilePath.lastIndexOf("."));
+	var sFileName = sFilePath.substr(0, sFilePath.lastIndexOf("."));
+	var sTitle = sFilePath.substr(sFilePath.lastIndexOf("/")+1, sFilePath.length);
 	$('title').text(decodeURI(sTitle));
 	$('header > h1').text(decodeURI(sTitle));
 	$('article').load(sBaseUrl + sFilePath, function(content) {
@@ -69,7 +70,7 @@ var pathArray = window.location.pathname.split('/');
 		});
 	});
 	//load header
-	var sImagePath = sTitle + ".jpg";
+	var sImagePath = sFileName + ".jpg";
 	var sImageUrl = sBaseUrl + sImagePath;
 	$("header").css("background-image", "url("+sImageUrl+")");
 	var sAvatarUrl = "https://avatars.githubusercontent.com/" + sUser;

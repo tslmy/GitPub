@@ -20,8 +20,10 @@ var pathArray = window.location.pathname.split('/');
 	});
 	var sBaseUrl = 'https://raw.githubusercontent.com/' + sUser + '/' + sRepo + '/master/';
 		var sFilePath = window.location.search.replace("?", "");
+		var sTitle = sFilePath.substr(0, sFilePath.lastIndexOf("."));
+		var sImagePath = sTitle + ".jpg";
 		$(document).ready( function() { 
-		 $('title').text(decodeURI(sFilePath.substr(0,sFilePath.length-3)));
+		 $('title').text(decodeURI(sTitle));
 		 $('article').load(sBaseUrl + sFilePath, function(content) {
 		 	marked(content, function (err, content) {
 			  if (err) throw err;

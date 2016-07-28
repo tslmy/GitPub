@@ -78,7 +78,7 @@ var pathArray = window.location.pathname.split('/');
 	$("header > a").prop("href", "https://github.com/"+sUser);
 	getImageBrightness(sImageUrl, function(brightness) {
 		var color = 255 - brightness;
-		$('header > a, header > h1').css('background','rgb('+color+', '+color+', '+color+')');
+		$('header > a, header > h1').css('color','rgb('+color+', '+color+', '+color+')');
 	});
 	// Disqus
 	var d = document, s = d.createElement('script');

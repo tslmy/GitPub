@@ -4,6 +4,7 @@ var pathArray = window.location.pathname.split('/');
 //https://jsfiddle.net/s7Wx2/
  function getImageBrightness(imageSrc,callback) {
         var img = document.createElement("img");
+        img.crossOrigin="anonymous";
         img.src = imageSrc;
         img.style.display = "none";
         document.body.appendChild(img);

@@ -60,7 +60,7 @@ var pathArray = window.location.pathname.split('/');
 	var sBaseUrl = 'https://rawgit.com/' + sUser + '/' + sRepo + '/master/';
 	var sFilePath = window.location.search.replace("?", "");
 	var sFileName = sFilePath.substr(0, sFilePath.lastIndexOf("."));
-	var sTitle = sFilePath.substr(sFilePath.lastIndexOf("/")+1, sFilePath.length);
+	var sTitle = sFileName.substr(sFileName.lastIndexOf("/")+1, sFileName.length);
 	$('title').text(decodeURI(sTitle));
 	$('header > h1').text(decodeURI(sTitle));
 	$('article').load(sBaseUrl + sFilePath, function(content) {

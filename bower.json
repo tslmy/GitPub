@@ -1,0 +1,17 @@
+{
+  "name": "GitPub",
+  "main": "index.js",
+  "homepage": "https://github.com/tslmy/GitPub",
+  "authors": [
+    "Mingyang Li <tslmy@outlook.com>"
+  ],
+  "description": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

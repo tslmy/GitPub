@@ -56,7 +56,7 @@ var pathArray = window.location.pathname.split('/');
 	  smartLists: true,
 	  smartypants: true
 	});
-	var sBaseUrl = 'https://raw.githubusercontent.com/' + sUser + '/' + sRepo + '/master/';
+	var sBaseUrl = 'https://rawgit.com/' + sUser + '/' + sRepo + '/master/';
 	var sFilePath = window.location.search.replace("?", "");
 	var sTitle = sFilePath.substr(0, sFilePath.lastIndexOf("."));
 	$('title').text(decodeURI(sTitle));

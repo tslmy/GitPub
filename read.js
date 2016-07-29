@@ -43,7 +43,7 @@ var pathArray = window.location.pathname.split('/');
 	$("header > a").prop("href", '//'+sUser+'.github.io/'+sRepo+'/');
 	getImageBrightness(sImageUrl, function(brightness) {
 		var color = 255 - brightness;
-		$('header > a, header > h1').css('color','rgb('+color+', '+color+', '+color+')');
+		$('header > a, header > h1, header > h2').css('color','rgb('+color+', '+color+', '+color+')');
 	});
 	// Disqus
 	var d = document, s = d.createElement('script');

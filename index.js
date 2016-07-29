@@ -11,6 +11,8 @@
     var sRootUrl = 'http://github.com/' + sUser + '/' + sRepo + '/';
     var sBaseUrl = 'https://raw.githubusercontent.com/' + sUser + '/' + sRepo + '/master/';
     $('#blogName').text(sRepo);
+    var d = new Date();
+    $('footer').text(sUser+' '+d.getFullYear()+'. All rights reserved.');
     //load header START
     var sImagePath = "_header.jpg";
     var sImageUrl = sBaseUrl + sImagePath;
@@ -23,8 +25,17 @@
     $("header > a").prop("href", '//'+sUser+'.github.io/'+sRepo+'/');
     getImageBrightness(sImageUrl, function(brightness) {
         var color = 255 - brightness;
-        $('header > a, header > h1').css('color','rgb('+color+', '+color+', '+color+')');
+        $('header > a, header > h1, header > h2').css('color','rgb('+color+', '+color+', '+color+')');
     });
+    // now get the repo description: 
+       $.ajax({
+            dataType: "json",
+            url: "https://api.github.com/repos/"+sUser+"/"+sRepo,
+            success: function(p_oData) {
+                console.log(p_oData);//for debug
+                $('header > h2').text(p_oData.description);
+            }
+        });
     //load header END
     $('title').text(sRepo+ ' - Index');
     var $List;

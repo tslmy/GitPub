@@ -33,6 +33,11 @@ header h1 {
   color: white;
 }
 
+header h2 {
+  font-size: 1em;
+  font-weight: 300;
+}
+
 header a {
   border: 1px solid #e81c4f;
   border-radius: 290486px;

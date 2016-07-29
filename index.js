@@ -82,11 +82,13 @@
                         addFilesToList(p_oFile.path, $SubList, p_sRootUrl, p_sUser, p_sRepo, p_sToken);
                         p_$List.append('<li class="entry folder">' + p_oFile.name + '</li>').append($SubList);
                     } else if (p_oFile.type === 'file') { // File
-                        sFileType = 'file';
-                        sExtension = p_oFile.name.substr(-3);
-                        sFileName = p_oFile.name.substr(0, p_oFile.name.length - 3);
-                        sFileRelativePath = p_oFile.download_url.substr(sBaseUrl.length,p_oFile.download_url.length);
-                        if (sExtension == '.md' && p_oFile.name.substr(0, 1) != '.') p_$List.append('<li class="entry file">' + ' <a href="read.html?' + sFileRelativePath + '">' + sFileName + '</a></li>');
+                        var sFileType = 'file';
+                        var sExtension = p_oFile.name.substr(-3);
+                        var sFileName = p_oFile.name.substr(0, p_oFile.name.length - 3);
+                        var sFileRelativePath = p_oFile.download_url.substr(sBaseUrl.length,p_oFile.download_url.length);
+                        if (sExtension == '.md' && p_oFile.name.substr(0, 1) != '.') {
+                            p_$List.append('<li class="entry file">' + ' <a href="read.html?' + sFileRelativePath + '">' + sFileName + '</a></li>');
+                        };
                     }
                 });
             },

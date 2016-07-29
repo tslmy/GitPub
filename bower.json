@@ -16,7 +16,9 @@
   ],
   "dependencies": {
     "remarkable": "^1.6.2",
-    "highlightjs": "^9.5.0"
+    "highlightjs": "^9.5.0",
+    "github-markdown-css": "^2.3.0",
+    "bigfoot": "^2.1.4"
   },
   "private": true
 }

@@ -51,6 +51,9 @@ var pathArray = window.location.pathname.split('/');
 		$('article').html(md.render(content));
 		// bigfoot, for readable footnotes:
 		$.bigfoot();
+		// enable highlighter:
+		var hltr = new TextHighlighter(document.getElementById('highlightable'));
+		hltr.setColor('#FA7D9C');
 	}).css("display", "block");
 	//load header
 	var sImagePath = sFileName + ".jpg";

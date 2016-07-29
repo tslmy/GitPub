@@ -47,8 +47,10 @@ var pathArray = window.location.pathname.split('/');
 		    return ''; // use external default escaping
 		  }
 		});
-
+		//replace pur markdown with rendered html:
 		$('article').html(md.render(content));
+		// bigfoot, for readable footnotes:
+		$.bigfoot();
 	}).css("display", "block");
 	//load header
 	var sImagePath = sFileName + ".jpg";
@@ -69,6 +71,4 @@ var pathArray = window.location.pathname.split('/');
 	s.src = '//gitpub.disqus.com/embed.js'; //USERS OF GITPUB: CHANGE THIS "GITPUB"!
 	s.setAttribute('data-timestamp', +new Date());
 	(d.head || d.body).appendChild(s);
-	// bigfoot, fore readable footnotes
-	$.bigfoot();
 })();

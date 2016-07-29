@@ -11,6 +11,21 @@
     var sRootUrl = 'http://github.com/' + sUser + '/' + sRepo + '/';
     var sBaseUrl = 'https://raw.githubusercontent.com/' + sUser + '/' + sRepo + '/master/';
     $('#blogName').text(sRepo);
+    //load header START
+    var sImagePath = "_header.jpg";
+    var sImageUrl = sBaseUrl + sImagePath;
+    $("header").css({
+        "background-image": "url("+sImageUrl+")",
+        "display":"block"});
+    var sAvatarUrl = "https://avatars.githubusercontent.com/" + sUser;
+    $("header > img").prop("src", sAvatarUrl);
+    $("header > a").text(sUser);
+    $("header > a").prop("href", '//'+sUser+'.github.io/'+sRepo+'/');
+    getImageBrightness(sImageUrl, function(brightness) {
+        var color = 255 - brightness;
+        $('header > a, header > h1').css('color','rgb('+color+', '+color+', '+color+')');
+    });
+    //load header END
     $('title').text(sRepo+ ' - Index');
     var $List;
     $List = $('#list');

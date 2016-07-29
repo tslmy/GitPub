@@ -15,7 +15,8 @@
     "tests"
   ],
   "dependencies": {
-    "bigfoot": "^2.1.4",
-    "marked": "^0.3.5"
-  }
+    "remarkable": "^1.6.2",
+    "highlightjs": "^9.5.0"
+  },
+  "private": true
 }

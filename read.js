@@ -9,16 +9,6 @@ var pathArray = window.location.pathname.split('/');
 		sUser = 'tslmy';
 		sRepo = 'GitPub';
 	};
-	marked.setOptions({
-	  renderer: new marked.Renderer(),
-	  gfm: true,
-	  tables: true,
-	  breaks: true,
-	  pedantic: false,
-	  sanitize: false,
-	  smartLists: true,
-	  smartypants: true
-	});
 	var sBaseUrl = 'https://rawgit.com/' + sUser + '/' + sRepo + '/master/';
 	var sFilePath = window.location.search.replace("?", "");
 	var sFileName = sFilePath.substr(0, sFilePath.lastIndexOf("."));
@@ -26,10 +16,39 @@ var pathArray = window.location.pathname.split('/');
 	$('title').text(decodeURI(sTitle));
 	$('header > h1').text(decodeURI(sTitle));
 	$('article').load(sBaseUrl + sFilePath, function(content) {
-		marked(content, function (err, content) {
-			if (err) throw err;
-			$('article').html(content);
+		var md = new Remarkable('full', {
+		  html:         true,        // Enable HTML tags in source
+		  xhtmlOut:     true,        // Use '/' to close single tags (<br />)
+		  breaks:       true,        // Convert '\n' in paragraphs into <br>
+		  langPrefix:   'language-',  // CSS language prefix for fenced blocks
+		  linkify:      true,         // autoconvert URL-like texts to links
+		  linkTarget:   '',           // set target to open link in
+
+		  // Enable some language-neutral replacements + quotes beautification
+		  typographer:  true,
+
+		  // Double + single quotes replacement pairs, when typographer enabled,
+		  // and smartquotes on. Set doubles to '«»' for Russian, '„“' for German.
+		  quotes: '“”‘’',
+
+		  // Highlighter function. Should return escaped HTML,
+		  // or '' if input not changed
+		  highlight: function (str, lang) {
+		    if (lang && hljs.getLanguage(lang)) {
+		      try {
+		        return hljs.highlight(lang, str).value;
+		      } catch (__) {}
+		    }
+
+		    try {
+		      return hljs.highlightAuto(str).value;
+		    } catch (__) {}
+
+		    return ''; // use external default escaping
+		  }
 		});
+
+		$('article').html(md.render(content));
 	}).css("display", "block");
 	//load header
 	var sImagePath = sFileName + ".jpg";

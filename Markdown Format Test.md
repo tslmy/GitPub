@@ -1,3 +1,4 @@
+
 A Test File to Markdown
 =======================
 Let me start with a Table of Contents:
@@ -12,9 +13,9 @@ And then some in-line formatting, like **Strong**, _Italic_, ~~strikethrough~~, 
 #### sub
 ##### titles?
 
--------
+----
 
->Quote
+
 
 Table:
 
@@ -35,9 +36,9 @@ Code:
 Instant link: <http://a.com/>.
 Or another [link](http://b.com/).
 
-How about a [footnote][^1]?
+How about a footnote[^lol]?
 
-[^1]: Like this.
+[^lol]: Like this.
 
 ![don't forget images!](http://c.com/image.jpg)
 
@@ -51,7 +52,7 @@ List:
 
 1. A
 2. B
- 2.1. B.A
+    2.1. B.A
 3. C
 
 Finally, I love $math$!

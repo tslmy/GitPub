@@ -4,7 +4,7 @@ Let me start with a Table of Contents:
 
 [TOC]
 
-And then some in-line formatting, like **Strong**, _Italic_, ~strikethrough~, `code` and <u>underline</u>.
+And then some in-line formatting, like **Strong**, _Italic_, ~~strikethrough~~, `code` and <u>underline</u>.
 
 #How
 ##about
@@ -54,7 +54,7 @@ List:
  2.1. B.A
 3. C
 
-Finally, I love math!
+Finally, I love $math$!
 
-$$\Sum_a^b \frac{123\epsilon}{456\pi} \\
+$$\sum_a^b \frac{123\epsilon}{456\pi} \\
 \text{Formula.}$$

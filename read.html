@@ -24,13 +24,16 @@
     <script src="bower_components/highlightjs/highlight.pack.min.js"></script>
     <script src="getImageBrightness.js"></script>
     <script src="read.js"></script>
-    <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
     <script type="text/x-mathjax-config">
       MathJax.Hub.Config({
         showProcessingMessages: false,
         tex2jax: { inlineMath: [['$','$'],['\\(','\\)']] },
-        TeX: { equationNumbers: {autoNumber: "AMS"} }
+        TeX: { equationNumbers: {autoNumber: "AMS"} },
+          CommonHTML: { linebreaks: { automatic: true } },
+          "HTML-CSS": { linebreaks: { automatic: true } },
+                 SVG: { linebreaks: { automatic: true } } 
       });
     </script>
+    <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 </body>
 </html>

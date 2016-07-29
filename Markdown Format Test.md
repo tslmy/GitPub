@@ -6,11 +6,11 @@ Let me start with a Table of Contents:
 
 And then some in-line formatting, like **Strong**, _Italic_, ~~strikethrough~~, `code` and <u>underline</u>.
 
-#How
-##about
-###some
-####sub
-#####titles?
+# How
+## about
+### some
+#### sub
+##### titles?
 
 -------
 
@@ -44,8 +44,8 @@ How about a [footnote][^1]?
 List:
 
 - 1
- - 1.1
- - 1.2
+  - 1.1
+  - 1.2
 - 2
 - 3
 
